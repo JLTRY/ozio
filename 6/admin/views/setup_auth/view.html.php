@@ -68,7 +68,7 @@ class OzioViewSetup_Auth extends JViewLegacy
 	//	$document->addScript("https://accounts.google.com/gsi/client");// async defer
 //		$document->addScriptDeclaration('ozio_setup_auth();');
 
-$document->addScript("https://apis.google.com/js/client.js?onload=ozio_setup_auth","text/javascript",true,true);// async defer
+		$document->addScript("https://apis.google.com/js/client.js?onload=ozio_setup_auth");//JLT,"text/javascript",true,true);// async defer
 		
 	
 

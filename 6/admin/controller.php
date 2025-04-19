@@ -21,6 +21,8 @@
 
 defined('_JEXEC') or die;
 jimport('joomla.application.component.controller');
+use Joomla\CMS\MVC\Controller\BaseController as JControllerLegacy;
+
 class OzioController extends JControllerLegacy
 {
 	public function display($cachable = false, $urlparams = false)
